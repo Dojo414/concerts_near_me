@@ -1,6 +1,4 @@
-require "movie_times/version"
+require_relative "movie_times/version"
+require_relative "./movie_times/cli"
 
-module MovieTimes
-  class Error < StandardError; end
-  # Your code goes here...
-end
+

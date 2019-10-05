@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "Hello World"
+require './lib/movie_times'
+
+MovieTimes::CLI.new.call

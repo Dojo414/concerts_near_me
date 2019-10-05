@@ -5,12 +5,7 @@ class MovieTimes::CLI
     puts "Please enter your zipcode"
     zipcode = gets_zip
     page = MovieTimes::Scraper.get_page(zipcode)
-    #puts "The theatres near you are:"
-    #gets_theatres
-    #puts "Please type the number of the theatre you would like to know the movies for:"
-    #gets_movies
-    #puts"Please select the movie you would like times for:"
-    puts page
+    binding.pry
   end
   
   def gets_zip

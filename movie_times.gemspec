@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "movie_times/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "movie_times"
+  spec.name          = "concerts_near_me"
   spec.version       = MovieTimes::VERSION
   spec.authors       = ["'Donovan Jones'"]
   spec.email         = ["'donovanljones94@gmail.com'"]
 
   spec.summary       = %q{"Gives movie description for theatres."}
-  spec.homepage      = "https://github.com/Dojo414/movie_times."
+  spec.homepage      = "https://github.com/Dojo414/concerts_near_me"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/Dojo414/movie_times"
+    spec.metadata["source_code_uri"] = "https://github.com/Dojo414/concerts_near_me"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

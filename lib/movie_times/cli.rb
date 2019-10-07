@@ -1,44 +1,33 @@
 class MovieTimes::CLI 
   
   def call 
-    puts "Hello! Welcome to Movie Times!"
-    puts "Please enter your zipcode"
-    zipcode = gets_zip
-    page = MovieTimes::Scraper.get_page(zipcode)
-    binding.pry
+    puts "Hello! Welcome to Concerts Near Me!"
+    puts "Please enter the name of your city:"
+    city = gets_city
+    puts "Thank You! Now please enter to 2 letter abbreviation for your state: (e.g. FL)"
+    state = gets_state
+    puts city
+    puts state
+    
   end
   
-  def gets_zip
-    zipcode = gets.chomp
-    zipcode
+  def gets_city
+    city = gets.chomp
+    city
   end
   
-  def gets_theatres
-    theatres = ["Tyrone", "Parkside", "Cobb"]
-    i = 1
-    theatres.each do |theatre|
-      puts "#{i}. #{theatre}"
-      i += 1
-  end
-end
-
-def gets_movies
-  number = gets.to_i
-  case number
-    when 1 
-      puts "Forrest Gump"
-    when 2
-      puts "Lego Movie"
-    when 3 
-      puts "Hello World"
+  def gets_state
+    input = nil
+    while input.length != 2
+      input = gets.chomp
+      if input.length != 2 
+        puts "Sorry that is not a valid state please try again:"
+      else
+        state = input
+      end
     end
+  state
 end
+      
 
-
-  
-   
-  
-  
-  
-  
 end

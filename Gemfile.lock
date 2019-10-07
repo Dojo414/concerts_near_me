@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    movie_times (0.1.0)
+    concerts_near_me (0.1.0)
       nokogiri
 
 GEM
@@ -22,7 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  movie_times!
+  concerts_near_me!
   pry
   rake (~> 10.0)
 

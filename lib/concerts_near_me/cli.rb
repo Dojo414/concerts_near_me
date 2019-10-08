@@ -16,12 +16,7 @@ class ConcertsNearMe::CLI
     print_concert_info(concerts)
     puts ""
     puts "Would you like to hear about another concert near you? (y/n)"
-    input = gets.chomp.downcase
-    if input == "y"
-      call
-    else 
-      puts "Thank you for using Concerts Near Me! Have a musical day!"
-  end
+    check_for_end
 end
   
   def gets_city
@@ -66,5 +61,17 @@ def print_concert_info(concert_array)
     puts detail.text 
   end
 end
+
+def check_for_end
+  input = gets.chomp.downcase
+    if input == "y"
+      call
+    elsif input == "n" 
+      puts "Thank you for using Concerts Near Me! Have a musical day!"
+    else 
+      puts "Sorry that wasn't a valid response please try again."
+      check_for_end
+    end
+  end
 
 end

@@ -62,7 +62,9 @@ def print_concert_info(concert_array)
   puts ""
   puts ""
   puts "Additional Details are below"
-  puts "#{concert_array[number - 1].additional_details}"
+  concert_array[number - 1].additional_details.each do |detail|
+    puts detail.text 
+  end
 end
 
 end

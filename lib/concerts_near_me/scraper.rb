@@ -29,7 +29,7 @@ class ConcertsNearMe::Scraper
   
   def self.gets_additional_details(url)
     page = Nokogiri::HTML(open(url))
-    additional_details = page.css("div.additional-details-container p").split
+    additional_details = page.css("div.additional-details-container p")
     return additional_details
   end
     

@@ -2,6 +2,8 @@
 
 # ConcertsNearMe
 
+This gem asks the user for their city and state. It then compiles a list of concerts near them, and then prompts them for which one interests them.
+After they select their concert it displays the info from the concert on songkick.com!
 
 
 ## Installation

@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require './lib/concerts_near_me'
+
+ConcertsNearMe::CLI.new.call

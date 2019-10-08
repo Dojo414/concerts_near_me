@@ -1,3 +1,3 @@
-module MovieTimes
+module ConcertsNearMe
   VERSION = "0.1.0"
 end

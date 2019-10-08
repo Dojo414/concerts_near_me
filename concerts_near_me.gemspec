@@ -5,11 +5,11 @@ require "movie_times/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "concerts_near_me"
-  spec.version       = MovieTimes::VERSION
+  spec.version       = ConcertsNearMe::VERSION
   spec.authors       = ["'Donovan Jones'"]
   spec.email         = ["'donovanljones94@gmail.com'"]
 
-  spec.summary       = %q{"Gives movie description for theatres."}
+  spec.summary       = %q{"Gives concerts near you!"}
   spec.homepage      = "https://github.com/Dojo414/concerts_near_me"
   spec.license       = "MIT"
 

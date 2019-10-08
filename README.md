@@ -1,17 +1,15 @@
-HELLO WORLD
 
-# MovieTimes
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/movie_times`. To experiment with that code, run `bin/console` for an interactive prompt.
+# ConcertsNearMe
 
-TODO: Delete this and the text above, and describe your gem
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'movie_times'
+gem 'concerts_near_me'
 ```
 
 And then execute:
@@ -20,11 +18,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install movie_times
+    $ gem install concerts_near_me
 
 ## Usage
 
-TODO: Write usage instructions here
+Type the below
+
+  `$ concerts_near_me`
 
 ## Development
 

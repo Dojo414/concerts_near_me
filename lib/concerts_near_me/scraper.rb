@@ -33,12 +33,4 @@ class ConcertsNearMe::Scraper
     return additional_details
   end
     
-
-    
-    
-  
-    
-  
-  
-  
 end
